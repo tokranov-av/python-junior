@@ -32,4 +32,6 @@ def counter(func: Callable) -> Callable:
 
 
 if __name__ == "__main__":
-    counter(some_func)()
+    print(counter(some_func)())
+    print(counter(some_func)())
+    print(counter(some_func)())
