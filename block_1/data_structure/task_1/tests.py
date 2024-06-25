@@ -56,5 +56,5 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(user_tuple.count(4), 2)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
