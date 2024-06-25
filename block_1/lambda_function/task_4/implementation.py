@@ -8,4 +8,4 @@ b = Product(7)
 c = Product(10)
 my_list_product = [a, b, c]
 
-res_list_product = []
+res_list_product = [product for product in my_list_product if product.value > 10]
