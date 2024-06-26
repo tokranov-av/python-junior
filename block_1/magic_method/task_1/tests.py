@@ -37,5 +37,5 @@ class MyTestCase(unittest.TestCase):
         self.assertGreater(res.get_value(), 220005077299)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
