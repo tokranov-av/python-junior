@@ -24,7 +24,7 @@ class WorkerManager(models.Manager):
         """
         return [
             f'{worker.first_name} {worker.last_name}, {worker.tab_num}, {worker.department.name}'
-            for worker in self.select_related('department').all()
+            for worker in self.all().select_related('department').order_by('last_name', 'first_name')
         ]
 
 
